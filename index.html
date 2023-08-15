@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Ordering Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <div class="title-container"><h1>MIA'S KITCHEN</h1></div>
+      </header>
+      <nav>
+        <div class="nav-btn">
+          <ul id="Menu-btn">
+            <li>
+              <a class="just-menu">Menu</a>
+              <ul>
+                <li class="nav-order"><a href="#home">Orders</a></li>
+                <li><a id="tracking" href="#menu">Tracking</a></li>
+                <li><a id="profile" href="#contact">Profile</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section id="home">
+        <div class="hero">
+          <h2>Delicious Food Delivered to Your Doorstep</h2>
+          <a href="" class="general-btn btn">Order Now</a>
+        </div>
+      </section>
+
+      <section id="menu">
+        <h2>Menu</h2>
+        <div class="menu-item">
+          <img
+            src="https://cdn.vanguardngr.com/wp-content/uploads/2015/09/food2.gif"
+            alt="Food Item 1"
+          />
+          <h3>Jollof Rice and Chicken</h3>
+          <p>Description of Food Item 1.</p>
+          <span class="price">$10.99</span>
+          <button class="general-btn order-btn">Order Now</button>
+        </div>
+        <!-- Add more menu items here -->
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+          <input type="text" name="name" placeholder="Your Name" />
+          <input type="email" name="email" placeholder="Your Email" />
+          <textarea name="message" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </section>
+
+      <footer>
+        <p>&copy; 2023 Victorvalour. All rights reserved.</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
