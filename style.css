@@ -12,7 +12,8 @@ body {
   
   header {
     position:fixed;
-    background-image: url('https://nomadparadise.com/wp-content/uploads/2020/08/nigerian-food-01-735x459.jpg.');
+    background-image: url('food-image1.jpg');
+    
     width: 100%;
     height: 170px;
     box-shadow: -4px 0px 15px 0px rgba(0,0,0,0.75)
