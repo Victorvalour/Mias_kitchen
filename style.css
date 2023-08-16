@@ -17,7 +17,7 @@ body {
     font-size: 16px;
     
     width: 100%;
-    height: 170px;
+    height: 140px;
     box-shadow: -4px 0px 15px 0px rgba(0,0,0,0.75)
  
   }
@@ -26,9 +26,9 @@ body {
     background-color: #FF5733;
     border-radius: 20px;
     margin-top: 40px;
-    margin-left: 16%;
+    margin-left: 22%;
     padding: 15px;
-    font-size: 3.2vw;
+    font-size: 3.4vw;
     border: 3px solid black;
     color: #fff;
     box-shadow: -4px 9px 15px 0px rgba(0,0,0,0.75);
@@ -43,7 +43,7 @@ body {
   display: flex;
   flex-direction: column;
   position: fixed;
-  top: 118px;
+  top: 88px;
   padding: 0px;
 
 }
