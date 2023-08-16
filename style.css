@@ -39,7 +39,7 @@ body {
     background-color: #070707;
     color: #fff;
     font-size: 22px;
-    top: 120px;
+    top: 120.5px;
   }
   .just-menu {
     border-top: 3px solid #fff;
@@ -99,9 +99,12 @@ body {
   .hero {
     background-image: url('');
     background-color:;
+    position: relative;
     background-size: cover;
     background-position: center;
-    height: 400px;
+    top: 100px;
+    z-index: -1;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
