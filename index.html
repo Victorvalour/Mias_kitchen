@@ -32,57 +32,92 @@
           </div>
         </div>
       </nav>
-      <section id="home">
-        <div class="para1">
-          <h2>Delicious Food Delivered to Your Doorstep</h2>
-          <div class="order1">
+      <div id="lower-bod">
+        <section id="home">
+          <div class="para1">
+            <h2>Delicious Food Delivered to Your Doorstep</h2>
+            <div class="order1">
+              <a
+                href="https://wa.me/message/XWCQVZBLJVNMF1"
+                target="_blank"
+                class="btn"
+                >Order Now
+              </a>
+            </div>
+          </div>
+        </section>
+        <div class="menu-header">
+          <h2>Menu</h2>
+        </div>
+        <section id="menu">
+          <div class="menu-item">
+            <img src="food1.png" alt="Food Item 1" />
+            <h3>Jollof Rice and Chicken</h3>
+            <p>Nigerian Jollof</p>
+            <span class="price">#3,000</span>
+            <a href="https://wa.me/message/XWCQVZBLJVNMF1" target="_blank">
+              <button class="order-btn">Order Now</button></a
+            >
+          </div>
+
+          <div class="menu-item">
+            <img src="food2.jpg" alt="Food Item 2" />
+            <h3>Fufu and Egusi soup</h3>
+            <p>Egusi</p>
+            <span class="price">#3,500</span>
             <a
+              class="food-order"
               href="https://wa.me/message/XWCQVZBLJVNMF1"
               target="_blank"
-              class="btn"
-              >Order Now
-            </a>
+            >
+              <button class="order-btn">Order Now</button></a
+            >
           </div>
-        </div>
-      </section>
 
-      <section id="menu">
-        <h2>Menu</h2>
-        <div class="menu-item">
-          <img src="food1.png" alt="Food Item 1" />
-          <h3>Jollof Rice and Chicken</h3>
-          <p>Nigerian Jollof</p>
-          <span class="price">#3,000</span>
-          <button class="order-btn">Order Now</button>
-        </div>
+          <div class="menu-item">
+            <img src="food3.jpg" alt="Food Item 3" />
+            <h3>Spaghetti and Turkey</h3>
+            <p>Stir-fried</p>
+            <span class="price">#3,000</span>
+            <a href="https://wa.me/message/XWCQVZBLJVNMF1" target="_blank">
+              <button class="order-btn">Order Now</button></a
+            >
+          </div>
+        </section>
 
-        <div class="menu-item">
-          <img src="food2.jpg" alt="Food Item 2" />
-          <h3>Fufu and Egusi soup</h3>
-          <p>Egusi</p>
-          <span class="price">#3,500</span>
-          <button class="order-btn">Order Now</button>
-        </div>
-
-        <div class="menu-item">
-          <img src="food3.jpg" alt="Food Item 3" />
-          <h3>Spaghetti and Turkey</h3>
-          <p>Stir-fried</p>
-          <span class="price">#3,000</span>
-          <button class="order-btn">Order Now</button>
-        </div>
-      </section>
-
-      <section id="contact">
-        <h2>Contact Us</h2>
-        <form action="#" method="post">
-          <input type="text" name="name" placeholder="Your Name" />
-          <input type="email" name="email" placeholder="Your Email" />
-          <textarea name="message" placeholder="Your Message"></textarea>
-          <button type="submit" class="btn">Send Message</button>
-        </form>
-      </section>
-
+        <section id="contact">
+          <h2 class="contact-us">Contact Us</h2>
+          <form id="form" action="#" method="post">
+            <div class="name-email">
+              <input
+                class="form-item"
+                id="name"
+                type="text"
+                name="name"
+                placeholder="Your Name"
+              />
+              <input
+                class="form-item"
+                id="email"
+                type="email"
+                name="email"
+                placeholder="Your Email"
+              />
+            </div>
+            <div class="message-send">
+              <textarea
+                class="form-item"
+                id="message-space"
+                name="message"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn" id="message-btn">
+                Send Message
+              </button>
+            </div>
+          </form>
+        </section>
+      </div>
       <footer>
         <p>&copy; 2023 Victorvalour. All rights reserved.</p>
       </footer>

@@ -1,6 +1,6 @@
 
-const orderButton2 = document.querySelector(".order-btn");
-orderButton2.onclick = () => alert("Your order has been placed.")
+/*const orderButton2 = document.querySelector(".order-btn");
+orderButton2.onclick = () => alert("Your order has been placed.") */
 
 const menuButton = document.querySelector('.sidebar-button');
 const menuPanel = document.querySelector('#sidebar-panel');
