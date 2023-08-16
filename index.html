@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Food Ordering Website</title>
+    <title>Mia's Kitchen</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -14,44 +14,63 @@
         </div>
       </header>
       <nav>
-        <div class="nav-btn">
-          <ul id="Menu-btn">
-            <li>
-              <a class="just-menu"
-                ><img
-                  class="hamburger-icon-orange"
-                  src="hamburger-icon-orange.png"
-                  alt="hamburger-icon"
-              /></a>
-            </li>
-          </ul>
-          <ul class="menu-panel">
-            <li class="nav-order"><a href="#home">Orders</a></li>
-            <li><a id="tracking" href="#menu">Tracking</a></li>
-            <li><a id="profile" href="#contact">Profile</a></li>
-          </ul>
+        <div class="sidebar">
+          <div class="sidebar-button">
+            <a
+              ><img
+                class="hamburger-icon-orange"
+                src="hamburger-icon-orange.png"
+                alt="hamburger-icon"
+            /></a>
+          </div>
+          <div id="sidebar-panel">
+            <ul>
+              <li class="nav-order"><a href="#home">Orders</a></li>
+              <li><a id="tracking" href="#menu">Tracking</a></li>
+              <li><a id="profile" href="#contact">Profile</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
       <section id="home">
-        <div class="hero">
+        <div class="para1">
           <h2>Delicious Food Delivered to Your Doorstep</h2>
-          <a href="" class="general-btn btn">Order Now</a>
+          <div class="order1">
+            <a
+              href="https://wa.me/message/XWCQVZBLJVNMF1"
+              target="_blank"
+              class="btn"
+              >Order Now
+            </a>
+          </div>
         </div>
       </section>
 
       <section id="menu">
         <h2>Menu</h2>
         <div class="menu-item">
-          <img
-            src="https://cdn.vanguardngr.com/wp-content/uploads/2015/09/food2.gif"
-            alt="Food Item 1"
-          />
+          <img src="food1.png" alt="Food Item 1" />
           <h3>Jollof Rice and Chicken</h3>
-          <p>Description of Food Item 1.</p>
-          <span class="price">$10.99</span>
-          <button class="general-btn order-btn">Order Now</button>
+          <p>Nigerian Jollof</p>
+          <span class="price">#3,000</span>
+          <button class="order-btn">Order Now</button>
         </div>
-        <!-- Add more menu items here -->
+
+        <div class="menu-item">
+          <img src="food2.jpg" alt="Food Item 2" />
+          <h3>Fufu and Egusi soup</h3>
+          <p>Egusi</p>
+          <span class="price">#3,500</span>
+          <button class="order-btn">Order Now</button>
+        </div>
+
+        <div class="menu-item">
+          <img src="food3.jpg" alt="Food Item 3" />
+          <h3>Spaghetti and Turkey</h3>
+          <p>Stir-fried</p>
+          <span class="price">#3,000</span>
+          <button class="order-btn">Order Now</button>
+        </div>
       </section>
 
       <section id="contact">

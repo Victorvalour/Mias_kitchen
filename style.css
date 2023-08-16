@@ -24,8 +24,9 @@ body {
     background-color: #FF5733;
     border-radius: 20px;
     margin-top: 40px;
-    margin-left: 18%;
+    margin-left: 16%;
     padding: 15px;
+    font-size: 22px;
     border: 3px solid black;
     color: #fff;
     box-shadow: -4px 9px 15px 0px rgba(0,0,0,0.75)
@@ -34,49 +35,75 @@ body {
     margin: 0;
     font-weight:px
   }
-  .nav-btn {
-    position: fixed;
-    background-color: #070707;
-    color: #fff;
-    font-size: 22px;
-    top: 120.5px;
-  }
-  .just-menu {
-    border-top: 3px solid #fff;
-  }
-  .nav-btn ul {
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    overflow: none;
 
-  }
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 118px;
+  padding: 0px;
 
-  .nav-btn ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background: #070707;
-  }
+}
+.sidebar-button {
+border-top: 4px solid #fff;
+background-color: #070707;
+box-sizing: content-box;
+padding: 8px;
+width: 30px;
+height: 30px;
+margin: 0px;
+}
+#sidebar-panel {
+  display: none;
+  margin: 0px;
+  width: 120px;
+
+  
+}
+#sidebar-panel ul {
+  padding: 0px;
+  margin: 0px
+
+}
+#sidebar-panel li{
+  list-style: none;
+  font-size: 25px;
+  color:#fff;
+  background-color: #070707;
+  border-bottom: 3px solid #fff;
+  padding: 10px;
+
+}
+#sidebar-panel li a {
+  text-decoration: none;
+  color: #ffffff;
+}
   .kitchen {
     color: #070707;
     font-weight: 900px;
+    font-size: 2.3rem;
   }
+
   .hamburger-icon-orange {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
+  }
+ .just-menu:hover {
+    background-color: #fff;
+  }
+  .just-menu:active{
+    background-color: #FF5733;
   }
   .menu-panel{
     top:100%;
-    display: none;
+    display: block;
+    position: relative;
+    top: 200px;
+
   }
   .nav-btn ul ul li {
     display: block;
-
     text-decoration: none;
-  }
-  #tracking {
-    border-top: 3px solid #ffffff;
-    border-bottom: 3px solid #ffffff;
   }
   .nav-btn li a {
     color: #fff;
@@ -96,22 +123,20 @@ body {
   border-bottom: 0px;
 }
   
-  .hero {
+  .para1 {
     background-image: url('');
     background-color:;
-    position: relative;
     background-size: cover;
     background-position: center;
     top: 100px;
+    margin-top: 150px;
     z-index: -1;
-    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  
   .btn {
     background-color: #FF5733;
     color: #fff;
@@ -120,16 +145,29 @@ body {
     border-radius: 5px;
     text-decoration: none;
   }
-  
+  .btn:hover {
+    background-color: #070707;
+    border: 3px solid #FF5733;
+    opacity: 0.8;
+    cursor: pointer;
+    z-index: -2;
+  }
+  .btn:active {
+    opacity: 0.7;
+    border: 3px solid #FF5733;
+    z-index: -34;
+  }
   .menu-item {
     margin: 20px;
     text-align: center;
   }
   
+  
   .menu-item img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
+    border: 3px solid #070707;
   }
   
   .menu-item h3 {
@@ -143,7 +181,13 @@ body {
   .price {
     font-weight: bold;
   }
+  #home {
+    margin-bottom: -20px;
+  }
   
+  #menu {
+    margin-top: -50px;
+  }
   .order-btn {
     background-color: #FF5733;
     color: #fff;
@@ -151,7 +195,13 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+  }
+  .order-btn:hover {
+    background-color: black;
+    border: 2px solid #FF5733;
+    opacity:0.8;
   }
   
   section {
@@ -169,3 +219,13 @@ body {
     margin: 0;
   }
   
+  @media (min-width:567px) {
+    .menu-item img {
+      max-width: 500px;
+      height: 300px;
+    }
+
+    #menu {
+      display: flex;
+    }
+  }
